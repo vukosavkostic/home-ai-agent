@@ -1,0 +1,15 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.jarvis.tts"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        debug { minifyEnabled false }
+    }
+    namespace 'com.jarvis.tts'
+}
